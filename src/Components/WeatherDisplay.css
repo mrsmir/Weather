@@ -1,0 +1,52 @@
+input::-webkit-input-placeholder {
+  color: #6fa7cc; 
+  font-size: x-large;   
+  opacity: 0.5;
+}
+input:-moz-placeholder {
+  color: #fafafa; 
+  background: #6fa7cc;
+  opacity: 0.5;
+} 
+input:-ms-input-placeholder {
+  color: #fafafa; 
+  background: #6fa7cc;
+  opacity: 0.5;
+}
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+input {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  border: 2px solid #6fa7cc;
+  border-radius: 25px;
+  outline: none;
+  background: #ffffff;
+  color: #6fa7cc;
+  font-size: x-large; 
+}
+button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 60px;
+  height: 50px;
+  border: none;
+  background: #6fa7cc;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  outline: none;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 30px;
+  color: #ffffff;
+}
+ 
